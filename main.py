@@ -5,4 +5,4 @@ if(unit == "F" or unit == "f"):
 elif(unit == "C" or unit =="c"):
   print(f"{temp}° in Celcius is equivalent to {(float(temp)*1.8)+(32)}° Fahrenheit.")
 else:
-  print("Invalid unit(bad).")
+  print(f"Invalid unit({unit}).")
